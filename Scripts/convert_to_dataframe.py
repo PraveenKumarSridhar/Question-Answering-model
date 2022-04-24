@@ -42,7 +42,7 @@ if __name__ == '__main__':
     with open(raw_train_data_path) as f:
         data = json.load(f)
     train_df = json_to_df(data)
-    train_df.to_csv(interim_path+r'\train_data.csv')
+    # train_df.to_csv(interim_path+r'\train_data.csv')
     print('Finished with train')
 
     with open(raw_dev_data_path) as f:

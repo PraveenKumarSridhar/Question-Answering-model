@@ -15,4 +15,4 @@ def get_answer_context(df):
             else:
                 answer += sentence
 
-df['entire_answer_text'] = df.apply(lambda row: get_answer_context(row), axis = 1)
+# df['entire_answer_text'] = df.apply(lambda row: get_answer_context(row), axis = 1)
