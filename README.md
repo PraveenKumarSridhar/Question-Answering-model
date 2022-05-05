@@ -55,4 +55,5 @@ tqdm
 
 ## Output visualization:
 ![start score visualization](reports/figures/start_word_scores.png)
+
 ![end score visualization](reports/figures/end_word_scores.png)
